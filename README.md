@@ -23,3 +23,6 @@ The arcade.check_for_collision_with_list(sprite, spriteList) method takes a spri
 self.player.kill() will remove the player sprite. .kill() can be (similarly) used to remove any sprite.
 
 As always, let me know if you have any questions.
+
+
+This program lets users play as a narwhal fighting against enemy penguins. The program allows users to shoot bullets when ever the mouse is clicked. If a bullet hits one of the penguins then the enemy HP decreases and the player score increases.
