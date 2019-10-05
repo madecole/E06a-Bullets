@@ -94,15 +94,11 @@ class Window(arcade.Window):
             for d in damage:
                 e.hp = e.hp - d.damage
                 d.kill()
-                #NUM_ENEMIES = NUM_ENEMIES - 1
                 if e.hp < 0:
                     e.kill()
                     self.score = self.score + KILL_SCORE
                 else:
                     self.score = self.score + HIT_SCORE
-            #if NUM_ENEMIES = 0
-                #close.arcadewindow
-                #print("You Won!")
 
     def on_draw(self):
         arcade.start_render()
